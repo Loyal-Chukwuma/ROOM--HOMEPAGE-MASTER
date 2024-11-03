@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-row {
+
+    nav {
+        margin-top: -350px;
+        margin-left: 100px;
+        gap: 50px;
+        list-style: none;
+        color: white;
+        font-size: small;
+        display: flex;
+
+        span{
+            font-size: 25px;
+            margin-top: -8.5px;
+        }
+    
+    }
+
+    header {
+        margin-left: 900px;
+        font-size: 32px;
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+
+    p{
+        margin-left: 900px;
+        margin-top: 20px;
+        color: darkgray;
+    }
+
+}
+
+.the-in-between {
+
+    .arrow {
+        margin-left: 900px;
+        margin-top: 20px;
+        font-weight: bold;
+        gap: 100px;
+        color: darkgray;
+    }
+
+    .double-arrows {
+        display: flex;
+        margin-left: 800px;
+        margin-top: 31.5px;
+        gap: 0px;
+    }
+
+    .left-arrow {
+        background: black;
+        width: 100px;
+        height: 70px;
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+
+    .right-arrow {
+        background: black;
+        width: 90px;
+        height: 70px;
+        padding-left: 25px;
+        padding-top: 20px;
+    }
+}
+
+
+.bottom-row {
+
+    .left-img {
+        margin-top: 0.3px;
+
+    }
+
+    h3 {
+        margin-left: 420px;
+        margin-top: -200px;
+    }
+
+    p {
+        margin-left: 420px;
+        margin-top: 10px;
+        color: darkgray;
+    }
+
+    .right-img {
+        display: flex;  
+        margin-top: -160px;
+        margin-left: 930px;
+    }
+
+}
+
+
+
+/* Micro Interactions */
+
+nav :hover {
+    text-decoration: underline;
+}
+
+.double-arrows :hover {
+    background: darkgray;
+}
+
+
