@@ -34,11 +34,36 @@ section p {
     color: black;
     display: flex;
     padding-top: 18rem;
+    padding-left: .3r
+    
+}
+
+.arrow div {
+    display: flex;
+    background-color: black;
+    
+   
 }
 
 .bottom-row {
     display: flex;
 }
+
+.bottom-row h3 {
+    width: 28rem;
+    padding-left: 4rem;
+    padding-block: 1rem;  
+}
+
+.bottom-row h3 p {
+    font-weight: lighter;
+    padding-top: 1rem;
+}
+
+.right-img {
+    padding-left: 3rem;
+}
+
 
 
 
